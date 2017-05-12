@@ -1,0 +1,29 @@
+{
+  "name": "nightmareTest",
+  "version": "0.0.1",
+  "devDependencies": {
+    "asar": "^0.11.0",
+    "electron-prebuilt": "^1.2.7",
+    "md5": "^2.2.1",
+    "request": "^2.74.0",
+    "standard": "^7.1.2"
+  },
+  "standard": {
+    "ignore": [
+      "/out",
+      "/spec",
+      "/vendor"
+    ],
+    "env": {
+      "browser": true
+    }
+  },
+  "private": true,
+  "scripts": {
+    "ele": "./node_modules/.bin/electron ."
+  },
+  "main": "main.js",
+  "dependencies": {
+    "superagent": "^2.1.0"
+  }
+}
